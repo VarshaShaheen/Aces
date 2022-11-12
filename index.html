@@ -2,59 +2,8 @@
 <html>
 
 <head>
-    <style>
-        #image {
-            display: none;
-            position: absolute;
-            max-width: 40%;
-            top: 10%;
-            left: 30rem;
-            right: 30rem;
-            border-radius: 3px;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-            overflow-y: clip;
-            animation: none}
-
-        #members{
-            display: none;
-            position: absolute;
-            max-width: 40%;
-            top: 10%;
-            left: 30rem;
-            right: 30rem;
-            border-radius: 3px;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-            overflow-y: clip;
-            animation: none;}
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 20rem;}
-
-
-        .btn {
-            color: black;
-            background-color: #10FFB4;
-            transition: .2s ease-in-out;
-            border-left: 3px transparent solid;
-            border-right: 3px transparent solid;
-            width: 8rem;
-            height: 3rem;
-            font-weight: bold;
-            font-family: "Baskerville Old Face";
-            font-size: 1rem;
-        }
-
-        .btn:hover {
-            color: #10FFB4;
-            background-color: black;
-            border-left: #10FFB4 3px solid;
-            border-right: #10FFB4 3px solid;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
 </head>
 
 <body>
@@ -69,21 +18,6 @@
     CLICK ME
 </button>
 </div>
-<script>
-    function show() {
-
-        document.getElementById('image')
-            .style.display = "block";
-
-
-        document.getElementById('btnID')
-            .style.display = "none";
-    }
-    function show_members(){
-        document.getElementById('members')
-            .style.display = "block";
-    }
-</script>
 </body>
 
 </html>
